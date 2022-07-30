@@ -1,0 +1,12 @@
+tests\EmailValidationTest.class
+tests\LoginFailedTest.class
+pageObjects\LoginPage.class
+pageObjects\MenuPage.class
+tests\BaseLoginTest.class
+pageObjects\BasePage.class
+pageObjects\OrderingAClosetPage.class
+tests\BaseTest.class
+tests\ClosetSizesFieldsTest.class
+tests\OrderingAClosetTest.class
+tests\SearchingATemplateTest.class
+pageObjects\TemplatesPage.class

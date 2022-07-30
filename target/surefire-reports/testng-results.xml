@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="9" ignored="0" total="31" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Involve web" duration-ms="234414" started-at="2022-07-23T20:26:49 IDT" finished-at="2022-07-23T20:30:43 IDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="234414" started-at="2022-07-23T20:26:49 IDT" finished-at="2022-07-23T20:30:43 IDT">
+      <class name="tests.SearchingATemplateTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchingATemplateTest@5922ae77]" name="setup" is-config="true" duration-ms="18876" started-at="2022-07-23T20:28:27 IDT" finished-at="2022-07-23T20:28:46 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupLogin()[pri:0, instance:tests.SearchingATemplateTest@5922ae77]" name="setupLogin" is-config="true" duration-ms="3908" started-at="2022-07-23T20:28:46 IDT" finished-at="2022-07-23T20:28:50 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method status="PASS" signature="tc01_searchTest()[pri:0, instance:tests.SearchingATemplateTest@5922ae77]" name="tc01_searchTest" duration-ms="8506" started-at="2022-07-23T20:28:50 IDT" description="Check the search function" finished-at="2022-07-23T20:28:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchingATemplateTest@5922ae77]" name="tearDown" is-config="true" duration-ms="1373" started-at="2022-07-23T20:28:58 IDT" finished-at="2022-07-23T20:29:00 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchingATemplateTest -->
+      <class name="tests.LoginFailedTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="setup" is-config="true" duration-ms="24152" started-at="2022-07-23T20:26:49 IDT" finished-at="2022-07-23T20:27:13 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_loginFaliure(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="tc01_loginFaliure" duration-ms="2696" started-at="2022-07-23T20:27:13 IDT" description="Check login failure" data-provider="getData_01" finished-at="2022-07-23T20:27:16 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test.ta715@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_loginFaliure -->
+        <test-method status="PASS" signature="tc01_loginFaliure(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="tc01_loginFaliure" duration-ms="2240" started-at="2022-07-23T20:27:16 IDT" description="Check login failure" data-provider="getData_01" finished-at="2022-07-23T20:27:18 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testypta715@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234@%MN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_loginFaliure -->
+        <test-method status="PASS" signature="tc02_loginFaliurer(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="tc02_loginFaliurer" duration-ms="1765" started-at="2022-07-23T20:27:18 IDT" description="Check login failure" data-provider="getData_02" finished-at="2022-07-23T20:27:20 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234@%MN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginFaliurer -->
+        <test-method status="PASS" signature="tc02_loginFaliurer(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="tc02_loginFaliurer" duration-ms="1604" started-at="2022-07-23T20:27:20 IDT" description="Check login failure" data-provider="getData_02" finished-at="2022-07-23T20:27:22 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ test1234@%MN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginFaliurer -->
+        <test-method status="PASS" signature="tc03_loginFailed()[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="tc03_loginFailed" duration-ms="1582" started-at="2022-07-23T20:27:22 IDT" description="Check login failure" finished-at="2022-07-23T20:27:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_loginFailed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginFailedTest@10b892d5]" name="tearDown" is-config="true" duration-ms="1765" started-at="2022-07-23T20:27:23 IDT" finished-at="2022-07-23T20:27:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginFailedTest -->
+      <class name="tests.OrderingAClosetTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.OrderingAClosetTest@2af616d3]" name="setup" is-config="true" duration-ms="17737" started-at="2022-07-23T20:29:52 IDT" finished-at="2022-07-23T20:30:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupLogin()[pri:0, instance:tests.OrderingAClosetTest@2af616d3]" name="setupLogin" is-config="true" duration-ms="4588" started-at="2022-07-23T20:30:09 IDT" finished-at="2022-07-23T20:30:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method status="FAIL" signature="tc01_OrderingAClosetTest()[pri:0, instance:tests.OrderingAClosetTest@2af616d3]" name="tc01_OrderingAClosetTest" duration-ms="27522" started-at="2022-07-23T20:30:14 IDT" description="Check end to end ordering process" finished-at="2022-07-23T20:30:42 IDT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (4bde6421-387f-4bfa-8de7-c0337fad481b)] -> css selector: [for=select-single-outcome] .modal-btn-start.swal-button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TALI-PC', ip: '192.168.36.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:57203, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 10636, moz:profile: C:\Users\Tali\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), se:cdp: ws://localhost:57203/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4bde6421-387f-4bfa-8de7-c0337fad481b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (4bde6421-387f-4bfa-8de7-c0337fad481b)] -> css selector: [for=select-single-outcome] .modal-btn-start.swal-button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TALI-PC', ip: '192.168.36.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:57203, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 10636, moz:profile: C:\Users\Tali\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), se:cdp: ws://localhost:57203/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4bde6421-387f-4bfa-8de7-c0337fad481b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pageObjects.BasePage.waitElementToBeClickable(BasePage.java:119)
+at pageObjects.TemplatesPage.clickStartEditing(TemplatesPage.java:37)
+at tests.OrderingAClosetTest.tc01_OrderingAClosetTest(OrderingAClosetTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_OrderingAClosetTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.OrderingAClosetTest@2af616d3]" name="tearDown" is-config="true" duration-ms="1668" started-at="2022-07-23T20:30:42 IDT" finished-at="2022-07-23T20:30:43 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OrderingAClosetTest -->
+      <class name="tests.ClosetSizesFieldsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ClosetSizesFieldsTest@4263b080]" name="setup" is-config="true" duration-ms="18295" started-at="2022-07-23T20:29:00 IDT" finished-at="2022-07-23T20:29:18 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupLogin()[pri:0, instance:tests.ClosetSizesFieldsTest@4263b080]" name="setupLogin" is-config="true" duration-ms="5667" started-at="2022-07-23T20:29:18 IDT" finished-at="2022-07-23T20:29:24 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method status="FAIL" signature="tc01_SizesFieldsTest()[pri:0, instance:tests.ClosetSizesFieldsTest@4263b080]" name="tc01_SizesFieldsTest" duration-ms="24342" started-at="2022-07-23T20:29:24 IDT" description="Check letters in the sizes fields" finished-at="2022-07-23T20:29:48 IDT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (b4eead75-5ac8-48c9-af23-96c7ce8ea66e)] -> css selector: [for=select-single-outcome] .modal-btn-start.swal-button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TALI-PC', ip: '192.168.36.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:62931, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 916, moz:profile: C:\Users\Tali\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4eead75-5ac8-48c9-af23-96c7ce8ea66e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on WINDOWS (b4eead75-5ac8-48c9-af23-96c7ce8ea66e)] -> css selector: [for=select-single-outcome] .modal-btn-start.swal-button] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TALI-PC', ip: '192.168.36.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:62931, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 916, moz:profile: C:\Users\Tali\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4eead75-5ac8-48c9-af23-96c7ce8ea66e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pageObjects.BasePage.waitElementToBeClickable(BasePage.java:119)
+at pageObjects.TemplatesPage.clickStartEditing(TemplatesPage.java:37)
+at tests.ClosetSizesFieldsTest.tc01_SizesFieldsTest(ClosetSizesFieldsTest.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_SizesFieldsTest -->
+        <test-method status="FAIL" signature="tc02_SizesFieldsTest()[pri:0, instance:tests.ClosetSizesFieldsTest@4263b080]" name="tc02_SizesFieldsTest" duration-ms="2025" started-at="2022-07-23T20:29:48 IDT" description="Check characters in the sizes fields" finished-at="2022-07-23T20:29:50 IDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: [placeholder='height*']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TALI-PC', ip: '192.168.36.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b4eead75-5ac8-48c9-af23-96c7ce8ea66e, findElement {using=css selector, value=[placeholder='height*']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:62931, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 916, moz:profile: C:\Users\Tali\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4eead75-5ac8-48c9-af23-96c7ce8ea66e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: [placeholder='height*']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'TALI-PC', ip: '192.168.36.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b4eead75-5ac8-48c9-af23-96c7ce8ea66e, findElement {using=css selector, value=[placeholder='height*']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:62931, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 916, moz:profile: C:\Users\Tali\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4eead75-5ac8-48c9-af23-96c7ce8ea66e
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at pageObjects.BasePage.clickNoHighlight(BasePage.java:73)
+at pageObjects.OrderingAClosetPage.fillInCharactersAndLetters(OrderingAClosetPage.java:88)
+at tests.ClosetSizesFieldsTest.tc02_SizesFieldsTest(ClosetSizesFieldsTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_SizesFieldsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ClosetSizesFieldsTest@4263b080]" name="tearDown" is-config="true" duration-ms="1518" started-at="2022-07-23T20:29:50 IDT" finished-at="2022-07-23T20:29:52 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ClosetSizesFieldsTest -->
+      <class name="tests.EmailValidationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="setup" is-config="true" duration-ms="16627" started-at="2022-07-23T20:27:25 IDT" finished-at="2022-07-23T20:27:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2194" started-at="2022-07-23T20:27:42 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:44 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@example.co.il]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2031" started-at="2022-07-23T20:27:44 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:46 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@example.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="1993" started-at="2022-07-23T20:27:46 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:48 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@example.org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2021" started-at="2022-07-23T20:27:48 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:50 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@example.edu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2058" started-at="2022-07-23T20:27:50 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:52 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@example.gov]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2042" started-at="2022-07-23T20:27:52 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:54 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstname.lastname@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2005" started-at="2022-07-23T20:27:54 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:56 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="FAIL" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="1993" started-at="2022-07-23T20:27:56 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:27:58 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ _______@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [] but found [Please enter an email address.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [] but found [Please enter an email address.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.EmailValidationTest.tc01_checkValidEmailField(EmailValidationTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="1986" started-at="2022-07-23T20:27:58 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:28:00 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@example.name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="PASS" signature="tc01_checkValidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc01_checkValidEmailField" duration-ms="2054" started-at="2022-07-23T20:28:00 IDT" description="Positive tests for checking Email field" data-provider="getData_01" finished-at="2022-07-23T20:28:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstname-lastname@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_checkValidEmailField -->
+        <test-method status="FAIL" signature="tc02_checkInvalidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc02_checkInvalidEmailField" duration-ms="2005" started-at="2022-07-23T20:28:02 IDT" description="Negative tests for checking Email field" data-provider="getData_02" finished-at="2022-07-23T20:28:04 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.email@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [A part followed by '@' should not contain a dot.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [A part followed by '@' should not contain a dot.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.EmailValidationTest.tc02_checkInvalidEmailField(EmailValidationTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_checkInvalidEmailField -->
+        <test-method status="FAIL" signature="tc02_checkInvalidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc02_checkInvalidEmailField" duration-ms="1997" started-at="2022-07-23T20:28:04 IDT" description="Negative tests for checking Email field" data-provider="getData_02" finished-at="2022-07-23T20:28:06 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email.@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [A part followed by '@' should not contain a dot.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [A part followed by '@' should not contain a dot.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.EmailValidationTest.tc02_checkInvalidEmailField(EmailValidationTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_checkInvalidEmailField -->
+        <test-method status="FAIL" signature="tc02_checkInvalidEmailField(java.lang.String,java.lang.String)[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc02_checkInvalidEmailField" duration-ms="2012" started-at="2022-07-23T20:28:06 IDT" description="Negative tests for checking Email field" data-provider="getData_02" finished-at="2022-07-23T20:28:08 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email..email@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [A part followed by '@' should not contain a dot.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [A part followed by '@' should not contain a dot.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.EmailValidationTest.tc02_checkInvalidEmailField(EmailValidationTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc03_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc03_checkInvalidEmailField" duration-ms="1968" started-at="2022-07-23T20:28:08 IDT" description="A Negative test - an email address with missing &quot;@&quot; sign and domain" finished-at="2022-07-23T20:28:10 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc04_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc04_checkInvalidEmailField" duration-ms="1949" started-at="2022-07-23T20:28:10 IDT" description="A Negative test - an email address which contains quotes around the email" finished-at="2022-07-23T20:28:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc05_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc05_checkInvalidEmailField" duration-ms="2040" started-at="2022-07-23T20:28:12 IDT" description="A Negative test - an email address which contains quotes around the email" finished-at="2022-07-23T20:28:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc06_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc06_checkInvalidEmailField" duration-ms="1954" started-at="2022-07-23T20:28:14 IDT" description="A Negative test - an email address which contains a missing username" finished-at="2022-07-23T20:28:16 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc07_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc07_checkInvalidEmailField" duration-ms="1962" started-at="2022-07-23T20:28:16 IDT" description="A Negative test - an email address which contains a missing &#039;@&#039; sign" finished-at="2022-07-23T20:28:18 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc08_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc08_checkInvalidEmailField" duration-ms="1971" started-at="2022-07-23T20:28:18 IDT" description="A Negative test - an email address which contains two &#039;@&#039; signs" finished-at="2022-07-23T20:28:20 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_checkInvalidEmailField -->
+        <test-method status="FAIL" signature="tc09_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc09_checkInvalidEmailField" duration-ms="1973" started-at="2022-07-23T20:28:20 IDT" description="A Negative test - an email address which contains a missing top-level domain" finished-at="2022-07-23T20:28:22 IDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please include a top level domain in the email address. email@example is missing a top level domain.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please include a top level domain in the email address. email@example is missing a top level domain.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.EmailValidationTest.tc09_checkInvalidEmailField(EmailValidationTest.java:107)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_checkInvalidEmailField -->
+        <test-method status="FAIL" signature="tc10_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc10_checkInvalidEmailField" duration-ms="1964" started-at="2022-07-23T20:28:22 IDT" description="A Negative test - an email address which contains .web" finished-at="2022-07-23T20:28:24 IDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [A part following '@' should not contain .web.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [A part following '@' should not contain .web.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at tests.EmailValidationTest.tc10_checkInvalidEmailField(EmailValidationTest.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tc11_checkInvalidEmailField()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tc11_checkInvalidEmailField" duration-ms="1962" started-at="2022-07-23T20:28:24 IDT" description="A Negative test - " finished-at="2022-07-23T20:28:26 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_checkInvalidEmailField -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.EmailValidationTest@42257bdd]" name="tearDown" is-config="true" duration-ms="1383" started-at="2022-07-23T20:28:26 IDT" finished-at="2022-07-23T20:28:27 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EmailValidationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Testing Involve web -->
+</testng-results>

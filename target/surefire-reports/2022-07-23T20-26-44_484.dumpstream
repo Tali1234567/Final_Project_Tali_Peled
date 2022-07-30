@@ -1,0 +1,5 @@
+# Created at 2022-07-23T20:26:45.533
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Computers\QA\Automation\Gal Matalon\Data Installation\Final_Project_Tali_Peled\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
