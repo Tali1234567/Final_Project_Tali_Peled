@@ -60,7 +60,6 @@ public class EmailValidationTest extends BaseTest {
 		String expected = "Please enter an email address.";
 		String actual = lp.emailErrorMsg();
 		Assert.assertEquals(actual, expected);
-		
 	}
 
 	@Test(description = "A Negative test - an email address which contains quotes around the email")
