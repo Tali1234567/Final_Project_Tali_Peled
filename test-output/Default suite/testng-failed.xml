@@ -7,7 +7,6 @@
         <methods>
           <include name="tc10_checkInvalidEmailField"/>
           <include name="tc02_checkInvalidEmailField" invocation-numbers="0 1 2 3"/>
-          <include name="tc03_checkInvalidEmailField"/>
           <include name="tc09_checkInvalidEmailField"/>
           <include name="tearDown"/>
           <include name="setup"/>

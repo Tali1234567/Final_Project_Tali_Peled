@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class TemplatesPage extends MenuPage {
 	@FindBy(css = "[placeholder='Filter template by name and keywords']")
 	private WebElement searchField;
-	@FindBy(css = ".px-3.py-3.text-sm.truncate.align-middle.text-slate-800")
+	@FindBy(css = "[title=\"Built-In Closet Designer With Pricing\"]")
 	private WebElement searchOutput;
 	@FindBy(css = "[href=\"/template/start/built-in-closet-designer-with-pricing\"]")
 	private WebElement chooseBtn;
@@ -49,13 +49,10 @@ public class TemplatesPage extends MenuPage {
 		waiting(5000);
 	}
 
-	// validation
+	//validation
 	public String getSearchOutput() {
 		return getText(searchOutput);
 	}
 
-	public String successMsg() {
-		return getText(searchOutput);
-	}
 
 }

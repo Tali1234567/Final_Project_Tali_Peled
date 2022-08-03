@@ -35,14 +35,7 @@ public class BasePage {
 	protected void fillFirstNameJS() {
 		JavascriptExecutor j = (JavascriptExecutor) driver;
 		j.executeScript(
-				"document.getElementsByClassName('e-firstName')[0].value='1234';document.getElementsByClassName('e-firstName')[0].setAttribute('value','1234');");
-		waiting(1000);
-
-	}
-
-	protected void fillCheckboxJS() {
-		JavascriptExecutor j = (JavascriptExecutor) driver;
-		j.executeScript("document.getElementsByClassName('el-checkbox__original')[1].click();");
+				"document.getElementsByClassName('e-firstName')[0].value='Test';document.getElementsByClassName('e-firstName')[0].setAttribute('value','Test');");
 		waiting(1000);
 
 	}
@@ -60,6 +53,13 @@ public class BasePage {
 		j.executeScript(
 				"document.getElementsByClassName('e-email')[0].value='test.ta715@gmail.com';document.getElementsByClassName('e-email')[0].setAttribute('value','test.ta715@gmail.com');");
 		waiting(2000);
+
+	}
+	
+	protected void fillCheckboxJS() {
+		JavascriptExecutor j = (JavascriptExecutor) driver;
+		j.executeScript("document.getElementsByClassName('el-checkbox__original')[1].click();");
+		waiting(1000);
 
 	}
 

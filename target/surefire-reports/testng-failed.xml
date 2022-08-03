@@ -3,28 +3,10 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Testing Involve web]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="tests.ClosetSizesFieldsTest">
-        <methods>
-          <include name="tc02_SizesFieldsTest"/>
-          <include name="setupLogin"/>
-          <include name="tc01_SizesFieldsTest"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- tests.ClosetSizesFieldsTest -->
-      <class name="tests.OrderingAClosetTest">
-        <methods>
-          <include name="tc01_OrderingAClosetTest"/>
-          <include name="setupLogin"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- tests.OrderingAClosetTest -->
       <class name="tests.EmailValidationTest">
         <methods>
           <include name="tc10_checkInvalidEmailField"/>
-          <include name="tc01_checkValidEmailField" invocation-numbers="7"/>
-          <include name="tc02_checkInvalidEmailField" invocation-numbers="0 1 2"/>
+          <include name="tc02_checkInvalidEmailField" invocation-numbers="0 1 2 3"/>
           <include name="tc09_checkInvalidEmailField"/>
           <include name="tearDown"/>
           <include name="setup"/>

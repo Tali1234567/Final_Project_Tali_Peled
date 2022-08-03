@@ -24,10 +24,10 @@ public class OrderingAClosetTest extends BaseLoginTest {
 		closet.fillWidthNumber("100");
 		closet.fillDepthNumber("40");
 		closet.ClickNext();
-		closet.fillInPersonalDetails();
+		closet.fillPersonalDetails();
 		closet.ClickNext();
-		String expected = "Thank you for your time";
-		String actual = template.successMsg();
+		String expected = "Follow us";
+		String actual = closet.endPage();
 		Assert.assertEquals(actual, expected);
 
 	}

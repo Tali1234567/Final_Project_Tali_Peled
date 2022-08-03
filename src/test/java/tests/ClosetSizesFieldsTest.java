@@ -20,7 +20,7 @@ public class ClosetSizesFieldsTest extends BaseLoginTest {
 		closet.calculatePrice();
 		closet.chooseAWoodType();
 		closet.SelectADoor();
-		closet.fillInCharactersAndLetters("a", "a", "a");
+		closet.fillCharactersAndLetters("a", "a", "a");
 		String expected = "";
 		String actual = closet.getheightFieldText();
 		String actua2 = closet.getwidthFieldText();
@@ -33,7 +33,7 @@ public class ClosetSizesFieldsTest extends BaseLoginTest {
 	@Test(description = "Check characters in the sizes fields")
 	public void tc02_SizesFieldsTest() {
 		OrderingAClosetPage closet = new OrderingAClosetPage(driver);
-		closet.fillInCharactersAndLetters("@", "@", "@");
+		closet.fillCharactersAndLetters("@", "@", "@");
 		String expected = "";
 		String actual = closet.getheightFieldText();
 		String actua2 = closet.getwidthFieldText();

@@ -23,6 +23,8 @@ public class OrderingAClosetPage extends MenuPage {
 	private WebElement personalDetailsHeader;
 	@FindBy(css = ".el-checkbox__original")
 	private WebElement markIAgreePersonalData;
+	@FindBy(css = ".c-social-links-container.content-item > div > div > .title")
+	private WebElement followUsText;
 
 	public OrderingAClosetPage(WebDriver driver) {
 		super(driver);
@@ -45,7 +47,7 @@ public class OrderingAClosetPage extends MenuPage {
 		click(oakWoodType_mirroredDoorBtn);
 	}
 
-	public void fillInClosetSizes(String height, String width, String depth) {
+	public void fillClosetSizes(String height, String width, String depth) {
 		waiting(2000);
 		clickNoHighlight(heightField);
 		fillTextJS(heightField, height);
@@ -56,7 +58,7 @@ public class OrderingAClosetPage extends MenuPage {
 		waitElementToBeClickable(nextBtn);
 	}
 
-	public void fillInPersonalDetails() {
+	public void fillPersonalDetails() {
 		fillFirstNameJS();
 		fillLastNameJS();
 		fillEmailJS();
@@ -83,7 +85,7 @@ public class OrderingAClosetPage extends MenuPage {
 		waiting(2000);
 	}
 
-	public void fillInCharactersAndLetters(String height, String width, String depth) {
+	public void fillCharactersAndLetters(String height, String width, String depth) {
 		waiting(2000);
 		clickNoHighlight(heightField);
 		fillShiftTextKeyboard(heightField, height);
@@ -111,6 +113,10 @@ public class OrderingAClosetPage extends MenuPage {
 
 	public String getdepthFieldText() {
 		return getText(depthField);
+	}
+	
+	public String endPage() {
+		return getText(followUsText);
 	}
 
 }
