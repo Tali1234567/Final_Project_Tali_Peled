@@ -20,11 +20,11 @@ public class BaseTest {
 		driver.get("https://www.involve.me/");
 		LoginPage lp = new LoginPage(driver);
 		lp.firstLogin();
-
 	}
 
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
 	}
+	
 }

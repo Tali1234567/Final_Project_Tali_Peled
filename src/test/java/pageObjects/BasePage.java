@@ -26,18 +26,11 @@ public class BasePage {
 		el.sendKeys(text);
 	}
 
-//	protected void fillTextJS(WebElement el, String text) {
-//		JavascriptExecutor j = (JavascriptExecutor) driver;
-//		j.executeScript("arguments[0].value='" + text + "';", el);
-//		waiting(1000);
-//	}
-
 	protected void fillFirstNameJS() {
 		JavascriptExecutor j = (JavascriptExecutor) driver;
 		j.executeScript(
 				"document.getElementsByClassName('e-firstName')[0].value='Test';document.getElementsByClassName('e-firstName')[0].setAttribute('value','Test');");
 		waiting(1000);
-
 	}
 
 	protected void fillLastNameJS() {
@@ -45,13 +38,11 @@ public class BasePage {
 		j.executeScript(
 				"document.getElementsByClassName('e-lastName')[0].value='Test';document.getElementsByClassName('e-lastName')[0].setAttribute('value','Test');");
 		waiting(2000);
-
 	}
 
 	protected void fillEmailJS() {
 		JavascriptExecutor j = (JavascriptExecutor) driver;
-		j.executeScript(
-				"document.getElementsByClassName('e-email')[0].value='test.ta715@gmail.com';document.getElementsByClassName('e-email')[0].setAttribute('value','test.ta715@gmail.com');");
+		j.executeScript("document.getElementsByClassName('e-email')[0].value='test.ta715@gmail.com';document.getElementsByClassName('e-email')[0].setAttribute('value','test.ta715@gmail.com');");
 		waiting(2000);
 
 	}
@@ -60,7 +51,6 @@ public class BasePage {
 		JavascriptExecutor j = (JavascriptExecutor) driver;
 		j.executeScript("document.getElementsByClassName('el-checkbox__original')[1].click();");
 		waiting(1000);
-
 	}
 
 	protected void click(WebElement el) {
@@ -131,7 +121,6 @@ public class BasePage {
 				+ newStyle + "');},0);", el);
 		js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '"
 				+ originalStyle + "');},1500);", el);
-
 	}
 
 	public void waiting(long mills) {

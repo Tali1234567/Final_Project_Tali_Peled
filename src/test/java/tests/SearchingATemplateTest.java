@@ -17,6 +17,6 @@ public class SearchingATemplateTest extends BaseLoginTest {
 		String expected = "Built-In Closet Designer With Pricing";
 		String actual = template.getSearchOutput();
 		Assert.assertEquals(actual, expected);
-
 	}
+	
 }

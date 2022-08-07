@@ -54,5 +54,4 @@ public class TemplatesPage extends MenuPage {
 		return getText(searchOutput);
 	}
 
-
 }

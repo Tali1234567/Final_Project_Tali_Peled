@@ -23,6 +23,6 @@ public class OrderingAClosetTest extends BaseLoginTest {
 		String expected = "Follow us";
 		String actual = closet.endPage();
 		Assert.assertEquals(actual, expected);
-
 	}
+	
 }

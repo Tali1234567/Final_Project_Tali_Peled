@@ -40,4 +40,5 @@ public class ClosetSizesFieldsTest extends BaseLoginTest {
 		Assert.assertEquals(actua2, expected);
 		Assert.assertEquals(actua3, expected);
 	}
+	
 }
