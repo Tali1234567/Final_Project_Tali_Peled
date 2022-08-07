@@ -17,9 +17,7 @@ public class ClosetSizesFieldsTest extends BaseLoginTest {
 		template.clickDesignPreview();
 		template.clickTryIt();
 		OrderingAClosetPage closet = new OrderingAClosetPage(driver);
-		closet.calculatePrice();
-		closet.chooseAWoodType();
-		closet.SelectADoor();
+		closet.buildACustomCloset();
 		closet.fillCharactersAndLetters("a", "a", "a");
 		String expected = "";
 		String actual = closet.getheightFieldText();

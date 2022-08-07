@@ -26,11 +26,11 @@ public class BasePage {
 		el.sendKeys(text);
 	}
 
-	protected void fillTextJS(WebElement el, String text) {
-		JavascriptExecutor j = (JavascriptExecutor) driver;
-		j.executeScript("arguments[0].value='" + text + "';", el);
-		waiting(1000);
-	}
+//	protected void fillTextJS(WebElement el, String text) {
+//		JavascriptExecutor j = (JavascriptExecutor) driver;
+//		j.executeScript("arguments[0].value='" + text + "';", el);
+//		waiting(1000);
+//	}
 
 	protected void fillFirstNameJS() {
 		JavascriptExecutor j = (JavascriptExecutor) driver;

@@ -17,15 +17,9 @@ public class OrderingAClosetTest extends BaseLoginTest {
 		template.clickDesignPreview();
 		template.clickTryIt();
 		OrderingAClosetPage closet = new OrderingAClosetPage(driver);
-		closet.calculatePrice();
-		closet.chooseAWoodType();
-		closet.SelectADoor();
-		closet.fillHeightNumber("80");
-		closet.fillWidthNumber("100");
-		closet.fillDepthNumber("40");
-		closet.ClickNext();
+		closet.buildACustomCloset();
+		closet.fillNumbersInSizesFields("80", "100", "40");
 		closet.fillPersonalDetails();
-		closet.ClickNext();
 		String expected = "Follow us";
 		String actual = closet.endPage();
 		Assert.assertEquals(actual, expected);

@@ -30,40 +30,14 @@ public class OrderingAClosetPage extends MenuPage {
 		super(driver);
 	}
 
-	public void calculatePrice() {
+	public void buildACustomCloset() {
 		switchToLastWindow();
 		click(calculatePriceBtn);
 		waitElementToBeClickable(oakWoodType_mirroredDoorBtn);
-	}
-
-	public void chooseAWoodType() {
+		click(oakWoodType_mirroredDoorBtn);
 		waiting(2000);
 		click(oakWoodType_mirroredDoorBtn);
-		waitElementToBeClickable(oakWoodType_mirroredDoorBtn);
-	}
-
-	public void SelectADoor() {
 		waiting(2000);
-		click(oakWoodType_mirroredDoorBtn);
-	}
-
-	public void fillClosetSizes(String height, String width, String depth) {
-		waiting(2000);
-		clickNoHighlight(heightField);
-		fillTextJS(heightField, height);
-		clickNoHighlight(widthField);
-		fillTextJS(widthField, width);
-		clickNoHighlight(depthField);
-		fillTextJS(depthField, depth);
-		waitElementToBeClickable(nextBtn);
-	}
-
-	public void fillPersonalDetails() {
-		fillFirstNameJS();
-		fillLastNameJS();
-		fillEmailJS();
-		fillCheckboxJS();
-		waitElementToBeClickable(nextBtn);
 	}
 
 	public void fillHeightNumber(String height) {
@@ -84,6 +58,15 @@ public class OrderingAClosetPage extends MenuPage {
 		fillNumbersKeyboard(depthField, depth);
 		waiting(2000);
 	}
+	
+	public void fillNumbersInSizesFields(String height, String width, String depth) {
+		fillHeightNumber(height);
+		fillWidthNumber(width);
+		fillDepthNumber(depth);
+		waitElementToBeClickable(nextBtn);
+		click(nextBtn);
+		waiting(9000);
+	}
 
 	public void fillCharactersAndLetters(String height, String width, String depth) {
 		waiting(2000);
@@ -96,12 +79,16 @@ public class OrderingAClosetPage extends MenuPage {
 		waiting(2000);
 	}
 
-	public void ClickNext() {
+	public void fillPersonalDetails() {
+		fillFirstNameJS();
+		fillLastNameJS();
+		fillEmailJS();
+		fillCheckboxJS();
 		waitElementToBeClickable(nextBtn);
 		click(nextBtn);
 		waiting(9000);
 	}
-
+	
 	// validation
 	public String getheightFieldText() {
 		return getText(heightField);

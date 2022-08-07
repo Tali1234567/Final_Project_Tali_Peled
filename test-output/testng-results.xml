@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T19:54:37 IDT" name="Default suite" finished-at="2022-08-03T19:55:56 IDT" duration-ms="78959">
+  <suite started-at="2022-08-07T16:55:31 IDT" name="Default suite" finished-at="2022-08-07T16:56:48 IDT" duration-ms="76652">
     <groups>
     </groups>
-    <test started-at="2022-08-03T19:54:37 IDT" name="Default test" finished-at="2022-08-03T19:55:56 IDT" duration-ms="78959">
+    <test started-at="2022-08-07T16:55:31 IDT" name="Default test" finished-at="2022-08-07T16:56:48 IDT" duration-ms="76652">
       <class name="tests.ClosetSizesFieldsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ClosetSizesFieldsTest@3cee53dc]" started-at="2022-08-03T19:54:37 IDT" name="setup" finished-at="2022-08-03T19:54:57 IDT" duration-ms="19924" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ClosetSizesFieldsTest@290aeb20]" started-at="2022-08-07T16:55:31 IDT" name="setup" finished-at="2022-08-07T16:55:51 IDT" duration-ms="19464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupLogin()[pri:0, instance:tests.ClosetSizesFieldsTest@3cee53dc]" started-at="2022-08-03T19:54:57 IDT" name="setupLogin" finished-at="2022-08-03T19:55:03 IDT" duration-ms="5800" status="PASS">
+        <test-method is-config="true" signature="setupLogin()[pri:0, instance:tests.ClosetSizesFieldsTest@290aeb20]" started-at="2022-08-07T16:55:51 IDT" name="setupLogin" finished-at="2022-08-07T16:55:56 IDT" duration-ms="4944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupLogin -->
-        <test-method signature="tc01_SizesFieldsTest()[pri:0, instance:tests.ClosetSizesFieldsTest@3cee53dc]" started-at="2022-08-03T19:55:03 IDT" name="tc01_SizesFieldsTest" description="Check letters in the sizes fields" finished-at="2022-08-03T19:55:46 IDT" duration-ms="42809" status="PASS">
+        <test-method signature="tc01_SizesFieldsTest()[pri:0, instance:tests.ClosetSizesFieldsTest@290aeb20]" started-at="2022-08-07T16:55:56 IDT" name="tc01_SizesFieldsTest" description="Check letters in the sizes fields" finished-at="2022-08-07T16:56:38 IDT" duration-ms="41871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_SizesFieldsTest -->
-        <test-method signature="tc02_SizesFieldsTest()[pri:0, instance:tests.ClosetSizesFieldsTest@3cee53dc]" started-at="2022-08-03T19:55:46 IDT" name="tc02_SizesFieldsTest" description="Check characters in the sizes fields" finished-at="2022-08-03T19:55:54 IDT" duration-ms="8557" status="PASS">
+        <test-method signature="tc02_SizesFieldsTest()[pri:0, instance:tests.ClosetSizesFieldsTest@290aeb20]" started-at="2022-08-07T16:56:38 IDT" name="tc02_SizesFieldsTest" description="Check characters in the sizes fields" finished-at="2022-08-07T16:56:46 IDT" duration-ms="8557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_SizesFieldsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ClosetSizesFieldsTest@3cee53dc]" started-at="2022-08-03T19:55:54 IDT" name="tearDown" finished-at="2022-08-03T19:55:56 IDT" duration-ms="1574" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ClosetSizesFieldsTest@290aeb20]" started-at="2022-08-07T16:56:46 IDT" name="tearDown" finished-at="2022-08-07T16:56:48 IDT" duration-ms="1456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
